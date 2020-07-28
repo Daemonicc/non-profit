@@ -1,0 +1,120 @@
+@media only screen and (min-device-width: 992px) {
+  .white-text {
+    color: #fff;
+  }
+  .navbar {
+    background: #fff;
+    height: 15vh;
+  }
+  .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+  }
+
+  .nav-list {
+    margin-left: 15rem;
+  }
+  .nav-list li {
+    padding-right: 4rem;
+  }
+
+  .nav-list li:last-child {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .donation-btn {
+    background-color: #c1f7d5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 24px;
+  }
+
+  #landing {
+    background-image: url('/img/annie-spratt-135307-unsplash.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #354463;
+    height: 90vh;
+    color: #354463;
+  }
+
+  .card {
+    margin-top: 10rem;
+  }
+
+  .card-title {
+    background-color: #354463;
+    position: relative;
+    height: 2rem;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    margin-top: -2rem;
+    font-weight: lighter;
+    margin-left: 3rem;
+  }
+
+  .intro-text {
+    padding: 3rem;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 0;
+  }
+  .card-body a {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    color: #354463;
+  }
+
+  .intro-hash {
+    margin-top: 10rem;
+    margin-left: 12rem;
+    font-size: 64px !important;
+    line-height: normal;
+  }
+
+  .logo {
+    font-family: 'Baskervville', serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #354463;
+  }
+
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: #354463;
+    height: 1px;
+  }
+
+  .footer-item {
+    font-size: 14px;
+  }
+
+  .hashtag {
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+  }
+
+  footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #354463;
+  }
+  .footer-links {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
